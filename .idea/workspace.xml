@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0611fb8f-11d7-4073-932b-ab4188468b78" name="Default Changelist" comment="" />
+    <list default="true" id="0611fb8f-11d7-4073-932b-ab4188468b78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/yii/basic/vendor/codeception/base" beforeDir="false" afterPath="$PROJECT_DIR$/yii/basic/vendor/codeception/base" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/takeout/TakeOut/resources/views/merchant/shop/shopDetail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="10121">
               <caret line="349" column="24" selection-start-line="349" selection-start-column="24" selection-end-line="349" selection-end-column="24" />
-              <folding>
-                <element signature="e#12258#13049#0#HTML" />
-                <element signature="e#13120#13911#0#HTML" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -32,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/takeout/TakeOut/app/Http/Controllers/Home/indexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
+            <state relative-caret-position="29">
               <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
@@ -77,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/takeout/TakeOut/routes/merchant_cpc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="1479">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
@@ -86,11 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/takeout/TakeOut/app/Http/Controllers/merchant/shopController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="13137">
               <caret line="464" column="34" selection-start-line="464" selection-start-column="34" selection-end-line="464" selection-end-column="34" />
-              <folding>
-                <element signature="e#17508#18020#0#PHP" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +102,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/takeout" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,9 +129,9 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="9" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="59" />
+    <option name="y" value="2" />
     <option name="width" value="1493" />
     <option name="height" value="894" />
   </component>
@@ -146,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,9 +271,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/takeout/TakeOut/resources/views/merchant/shop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -317,16 +313,18 @@
       <workItem from="1577411926897" duration="40000" />
       <workItem from="1577412773673" duration="262000" />
       <workItem from="1577413322606" duration="2370000" />
+      <workItem from="1577429765810" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13503000" />
+    <option name="totallyTimeSpent" value="14096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="9" width="1493" height="894" extended-state="0" />
+    <frame x="59" y="2" width="1493" height="894" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25889742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2623866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -382,6 +380,13 @@
     <entry file="file://$PROJECT_DIR$/takeout/TakeOut/app/Http/Controllers/Home/OrdersController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/takeout/TakeOut/resources/views/merchant/shop/shopDetail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10121">
+          <caret line="349" column="24" selection-start-line="349" selection-start-column="24" selection-end-line="349" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/takeout/TakeOut/public/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
@@ -412,35 +417,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/takeout/TakeOut/routes/merchant_cpc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="1479">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/takeout/TakeOut/app/Http/Controllers/merchant/shopController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="13137">
           <caret line="464" column="34" selection-start-line="464" selection-start-column="34" selection-end-line="464" selection-end-column="34" />
-          <folding>
-            <element signature="e#17508#18020#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeout/TakeOut/resources/views/merchant/shop/shopDetail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="349" column="24" selection-start-line="349" selection-start-column="24" selection-end-line="349" selection-end-column="24" />
-          <folding>
-            <element signature="e#12258#13049#0#HTML" />
-            <element signature="e#13120#13911#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/takeout/TakeOut/app/Http/Controllers/Home/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
+        <state relative-caret-position="29">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
