@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="__PUBLIC__/jQuery-1.8.2.min.js"></script>
+    <script src="__PUBLIC__/layer/layer.js"></script>
+</head>
+<body>
+<a href="{:U('WeiXin/creat_menus')}">开启订阅号菜单</a>
+<a href="{:U('WeiXin/delete_menus')}">删除订阅号菜单</a>
+<a href="" id="sendAll">群发消息</a>
+<dl>
+<foreach name="openid" item="v">
+        <dd><span>{$v}</span><a href="" class="sendOne">回复消息</a></dd>
+</foreach>
+</dl>
+<a href="{:U('qrcode')}" id="qrcode">生成场景二维码</a>
+{:urlencode("http://m.chpch.top/")}
+<dl>
+    <foreach name="qrcode" item="v">
+        <dd><img width="100" src="{$v.qrcode_url}" alt="">{$v.name}{:date('Y-m-d H:i:s',$v['expire_seconds'])}</dd>
+    </foreach>
+</dl>
+</body>
+<script>
+$('#sendAll').click(function(){
+    layer.open({
+        type:2,
+        title:'群发消息',
+        area:['600px','400px'],
+        content:['{:U("sendAll")}','no']
+    })
+    return false;
+})
+
+$('.sendOne').click(function(){
+    $openid = $(this).closest('dd').find('span').text();
+    layer.open({
+        type:2,
+        title:'群发消息',
+        area:['600px','400px'],
+        content:['{:U("sendOne")}?openid='+$openid,'no']
+    })
+    return false;
+})
+
+$('#qrcode').click(function(){
+    layer.open({
+        type:2,
+        title:'群发消息',
+        area:['600px','400px'],
+        content:['{:U("qrcode")}','no']
+    })
+    return false;
+})
+</script>
+</html>

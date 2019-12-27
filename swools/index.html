@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天室</title>
+</head>
+<body>
+<input type="text" id="msg">
+<button id="send">发言</button>
+</body>
+<script>
+    var ws = new WebSocket('ws://192.168.91.128:9502');
+    ws.onopen=function () {
+        document.getElementById('send').onclick=function () {
+            var msg=document.getElementById('msg').value;
+            if(msg){
+                ws.send(msg)
+            }
+        }
+    }
+    ws.onmessage=function (event) {
+        var msg= JSON.parse(event.data);
+        show(msg.type,msg.msg)
+    }
+    function show(type,msg) {
+        p = document.createElement('p');
+        p.innerHTML=msg;
+        document.body.appendChild(p);
+    }
+
+
+</script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>zuoy</title>
+</head>
+<body>
+	<form action="">
+		<input type="text" id="no1" placeholder="请输入数字">
+		<select name="calcOper" id="calcOper">
+			<option value="add" selected>+</option>
+			<option value="sub">-</option>
+			<option value="multiplication">&times;</option>
+			<option value="division">&divide;</option>
+		</select>
+		<input type="text" id="no2" placeholder="请输入数字">
+		<span>=</span>
+		<input type="text" id="redult" >
+		<input type="button" id="calculate" value="开始计算">
+	</form>
+</body>
+<script>
+	// 点击计算
+	document.getElementById('calculate').onclick = function(){
+		var no1 = document.getElementById('no1').value;
+		var calc = document.getElementById('calcOper').value;
+		var no2 =  document.getElementById('no2').value;
+		var price ;
+		no1 = Number(no1);
+		no2 = Number(no2);
+		switch(calc){
+			case 'add' : price = no1 + no2;break;
+			case 'sub' : price = no1 - no2;break;
+			case 'multiplication' : price = no1 * no2;break;
+			case 'division'  :price = no1 / no2;break;
+			default:price = "错误";
+		};
+		document.getElementById('redult').value=price;
+	}
+</script>
+</html>

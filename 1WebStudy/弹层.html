@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>弹层</title>
+	<style>
+		*{
+			margin:0;
+			border:0;
+			padding:0;
+		}
+		.keep-out{	/*遮盖样式*/	
+			position:fixed;
+			left:0;
+			top:0;
+			width:100%;
+			height:1000px;
+			background:rgba(200,200,200,0.8);
+			z-index: 10;
+			display:none;
+		}
+		.dl{/*弹窗样式*/
+			position:fixed;
+			left:37.5%;
+			top:18.75%;
+			width:400px;
+			height:500px;
+			background: #fff;
+			z-index: 100;
+			display:none;
+		}
+		li{/*字体样式*/
+			font-size: 40px;
+		}
+		.form{/*form表单样式*/
+			position:absolute;
+			left:73px;
+			top:220px;
+			width:252px;
+			height:64px;
+		}
+		input{/*文本框样式*/
+			width:197px;
+			height:30px;
+			border:1px solid #aaa;
+			margin-bottom: 20px;
+			padding:2px;
+		}
+		span{/*精灵图样式*/
+			display: block;
+			width:14px;
+			height:14px;
+			position:absolute;
+			top:0;
+			right:0;
+			background:url('cpc bk/images/icon.png') -456px -143px;
+		}
+		button{position: fixed;
+			bottom:50px;
+			right:10px;
+			width:40px;
+			height:40px;
+			border-radius:4px;
+			background: red;
+			color:#fff;
+			}
+	</style>
+</head>
+<body>
+	<!-- 遮盖层 -->
+	<div class="keep-out"></div>
+	<!-- 登录界面 -->
+	<div class="dl">
+		<div class="form">
+			<form action="">
+				用户名<input type="text" name="username"><br>
+				密&emsp;码<input type="password" name="password">
+			</form>			
+		</div>
+		<span></span><!-- 精灵图 -->
+	</div>
+	<!-- 按钮 -->
+	<button name="tc">弹出</button>
+	<ul><!-- 文本 -->
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		<li>wer</li>
+		
+	</ul>
+</body>
+<script>
+	var tc = document.getElementsByTagName('button')[0]
+	var div1 = document.getElementsByTagName('div')[0]
+	var div2 = document.getElementsByTagName('div')[1]
+	var span = document.getElementsByTagName('span')[0]
+	// 点击动作
+	tc.onclick = function(){
+		div1.style.display = 'block';
+		div2.style.display = 'block';
+	}
+	// 退出点击
+	span.onclick = function(){
+		div1.style.display = 'none';
+		div2.style.display = 'none';
+	}
+</script>
+</html>

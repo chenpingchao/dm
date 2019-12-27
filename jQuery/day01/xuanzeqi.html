@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+    <script src="../jquery-1.8.2.js"></script>
+</head>
+<body>
+<!--<form action="">
+    <dl>
+        <dd> <input type="text" name="username" disabled value="username"></dd>
+        <dd> <input type="password" name="password" value="password"></dd>
+        <dd> <textarea name="text" id="" cols="30" rows="10">多行文本框</textarea></dd>
+        <dd> <input type="radio" checked value="女" name="radio"></dd>
+        <dd> <input type="checkbox" checked value="唱" name="checkbox"></dd>
+        <dd> <input type="checkbox" checked value="跳" name="checkbox"></dd>
+        <dd> <input type="submit" value="提交"></dd>
+        <dd> <button>提交</button></dd>
+        <dd> <input type="reset" value="重置"></dd>
+        <dd> <button type="reset" >重置</button></dd>
+        <dd> <input type="file" name="file"></dd>
+        <dd> <input type="hidden" name="id" value="10"></dd>
+        <dd>
+            <select name="select" id="sa">
+                <option value="1" selected>one</option>
+                <option value="2">two</option>
+            </select>
+        </dd>
+    </dl>
+</form>-->
+   <dl>
+        <dd id="one" >one</dd>
+        <dd class="two">two</dd>
+        <dd class="three" id="three">three</dd>
+        <dd id="four">four</dd>
+        <dd class="five" id="five">five</dd>
+        <dd>独占一行</dd>
+        <dd>霸占一片</dd>
+
+    </dl>
+<!--<div>一个块集标签</div>
+<div style="display:none;">脸滚键盘</div>
+<div style="display:none;">唱，跳，rap， 篮球</div>-->
+</body>
+<script>
+/*    //基本选择器
+    //ID选择器
+    $("#one").css("color","red");
+    //类选择器
+    $(".two").css("backgroundColor","yellow");
+    //标签选择器
+    $("h1").css("color","blue");
+    //全选择器
+    $("*").css("fontSize","30px");
+    //并集选择器
+    $("p,#four,.five").css("fontWeight","bold");*/
+/*//层级选择器
+//后代选择器
+//     $("dl dd").css("color","red");
+//子选择器
+//     $("dd>h2").css("color","blue")
+//相邻兄弟选择器
+//     $("h2+p").css("fontSize",'26px');
+//所有兄弟选择器
+    $("#one~#four").css("color","green")*/
+//匹配选择器
+/*    //基本匹配选择器
+// 获取匹配的第一个元素
+$("dd:first").css("fontSize","25px");
+// 获取匹配的最后一个元素
+$("dd:last").css("fontSize","20px");
+// 去除所有与给定选择器匹配的元素
+$("dd:not(.five,#four)").css("color","red");
+//匹配所有索引值为偶数的元素，从 0 开始计数
+$("dd:even(0)").css("backgroundColor","yellow");
+//匹配所有索引值为偶数的元素，从 0 开始计数
+$("dd:odd(0)").css({backgroundColor:'green',fontSize:'30px'});
+//匹配一个给定索引值得元素
+$("dd:eq(3)").css("color","#c38712");
+//匹配索所有大于给定索引值得元素
+$("dd:gt(2)").html('大于');
+//匹配索所有小于给定索引值得元素
+$("dd:lt(2)").html('小于');
+// 匹配如 h1, h2, h3之类的标题元素
+$(":header").html('辣鸡在叫唤');*/
+/*//属性匹配选择器
+// 匹配包含给定属性的元素
+$("dd[id]").css("color","red");
+// 匹配给定的属性是某个特定值的元素
+$("input[name*='username']").css({width:"200px",height:"30px"});
+//匹配所有不含有指定的属性，或者属性不等于特定值的元素
+$("dd[id!='one']").css("fontSize","20px");
+// 匹配给定的属性是以某些值开始的元素
+$("input[value^='用户']").css("border","2px solid blue");
+// 匹配给定的属性是以某些值结尾的元素
+$("dd[class$='e']").css("backgroundColor","#efd123");
+// 匹配给定的属性是以包含某些值的元素
+$("dd[id*='o']").css("backgroundColor","#a231e5");
+//复合属性选择器，需要同时满足多个条件时使用
+$("dd[class][id]").html('多属性的')*/
+/*//子元素匹配选择器；;
+//匹配其父元素下的第N个子或奇偶元素,从1开始
+$("dl dd:nth-child(3)").html('3号被改变');
+//匹配第一个子元素
+$("dl dd:first-child").html("位列第一");
+//匹配最后一个子元素
+$("dl dd:last-child").html("位列末尾");
+// 如果某个元素是父元素中唯一的子元素，那将会被匹配
+$("dd input:only-child").val('他是唯一');*/
+/*//表单匹配选择器
+// 匹配所有 input, textarea, select 和 button 元素
+    $(":input").css('border',"2px solid #8a2342");
+//匹配所有的单行文本框
+    $(":text").css("height","30px");
+//匹配所有密码框
+    $(":password").css("width","300px");
+//匹配所有单选按钮
+    $(":radio").val('男');
+//匹配所有的复选按钮
+    $(":checkbox").val("crtl")
+//匹配所有的提交按钮
+    $(":submit").css({width:'100px',height:'30px',margin:"10px"});
+//匹配所有的重置按钮
+    $(":reset").css({width:'150px',height:'40px',margin:"5px"});
+// 匹配所有文件域
+    $(":file").css({width:'200px',height:'30px','border-radius':'20px'})
+//匹配所有不可见元素，或者type为hidden的表单元素
+    $(":hidden").html('隐藏域');
+//匹配所有可用元素
+    $(":enabled").css("fontSize","20px");
+// 匹配所有不可用元素
+    $(":disabled").css("color","red");
+// 匹配所有选中的被选中元素
+    $(":checked").css("backgroundColor","yellow");
+// 匹配所有选中的option元素
+    $(":selected").html("被选中");*/
+/*//内容匹配选择器
+// 匹配包含给定文本的元素
+    $("dd:contains('one')").css("fontSize",'30px');
+// 匹配含有选择器所匹配的元素的元素
+    $("dd p").css("color","red");
+    $("dd:has(p)").css("fontSize","25px");
+// 匹配含有子元素或者文本的元素
+    $("dd:parent").css("fontWeight","bold");
+//匹配所有不包含子元素或者文本的空元素
+    $("dd:empty").css('color',"blue").html("他已经不是一个空元素了");*/
+/*//可见性匹配选择器
+//匹配所有不可见元素，或者type为hidden的元素
+$("div:hidden").css("display","block")
+// 匹配所有的可见元素
+$("div:visible").css("color","#349712")*/
+//jQuery对象遍历
+/*// jQuery对象过滤；
+// 获取指定位置元素,这个元素的位置是从0算起。
+    $("dd").eq(3).html("被选中的");
+    $("dd").eq(-2).html("被选中的倒数");
+// 获取第一个元素
+    $("dd").first().html("第一");
+// 获取最后一个元素
+    $("dd").last().html("最后一个");
+// 检查当前的元素是否含有某个特定的类，如果有，则返回true
+    console.log($("dd").eq(2).hasClass('two'));
+//获取包含特定后代的元素
+     $("dd").has('span').css('fontSize','24px');
+//获取与指定表达式不匹配的元素
+     $("dd").not($(".two")[0]).css('color','red');
+//获取一个匹配的子集，不包含结束位置的元素
+    console.log($("dd").slice(2,6))*/
+/*//jQuery对象查找
+//取得所有子元素的元素集合
+    $("dd").children('p').css("color","red");
+//取得紧邻的下一个同辈元素
+    $("dd").eq(3).next().css("color","green");
+//查找当前元素之后所有的同辈元素
+    $("dd").eq(5).nextAll().css("color","blue");
+//取得紧邻的上一个同辈元素
+    $("dd").eq(1).prev().css("color","pink");
+//查找当前元素之前所有的同辈元素
+    $("dd").eq(5).prevAll().css("fontSize","20px");
+//取得所有同辈元素的元素集合
+     $("dd").eq(4).siblings().css("fontWeight","bold");
+//取得父元素
+    console.log($("span").parent());
+// 取得祖先元素的元素集合
+    console.log($("p").parents());
+//找最近的上级元素
+    console.log($('.two').closest('dd'));*/
+//jQuery数组对象遍历
+    $('dd').each(function(){
+        console.log(this.innerHTML);
+    });
+    $('dd').each(function(i){
+    console.log(i +'-' + $(this).html());
+    });
+    $('dd').each(function(i,e){
+        console.log(i +'-' + $(e).html());
+    })
+</script>
+</html>

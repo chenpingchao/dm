@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>	
+
+	<a href="shiyuan1.html">又一个新页面</a>
+	<button>开始</button>
+	<button>结束</button>
+</body>
+<script>
+document.getElementsByTagName('button')[0].onclick = function(){
+		history.forward();
+	}
+	// 后退
+	document.getElementsByTagName('button')[1].onclick = function(){
+		history.back();
+	}
+	console.log(history.length);
+
+
+	var riqi = new Date()
+	console.log(riqi.getFullYear()+'年'+riqi.getMonth()+'月'+riqi.getDate()+'日'+'  '+'星期'+riqi.getDay()+' '+riqi.getHours()+':'+riqi.getMinutes()+':'+riqi.getSeconds());	
+	var countDown = new Date('2019/10/1');
+	console.log(countDown)
+	month = 9 - riqi.getMonth();
+	day = month*30 - riqi.getDate();
+	hours = 24 - riqi.getHours();
+	Minutes = 59 - riqi.getMinutes();
+	Seconds = 59 - riqi.getSeconds();
+	document.getElementById('h1').innerHTML = ('还剩' + day + '日' + hours +'小时' + Minutes + '分' + Seconds +'秒')
+
+</script>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js中的ajax实现</title>
+
+</head>
+<body>
+<form>
+    <input type="text" name="username" id="username"><p></p>
+</form>
+</body>
+<script>
+    var p = document.getElementsByTagName("p")[0];
+    document.getElementById("username").onblur = function(){
+        //初始化XMLHttpRequest对象
+        if(window.XMLHttpRequest){
+            //非ie浏览器
+            var xhr = new XMLHttpRequest();
+        }else{
+            //ie浏览器
+            var xhr = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+
+        //XMLHttpRequest发出HTTP请求
+        xhr.open( 'POST','test.php?'.value,true );
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        xhr.send();
+
+        //XMLHttpRequest取得响应数据并显示
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState==4 && xhr.status==200){
+
+                var rel = JSON.parse( xhr.responseText ) ;
+                console.log(xhr.responseText);
+                console.log(rel);
+                if(rel.stats == 'ok'){
+                    p.style.color = "green"
+                }else{
+                    p.style.color = "red"
+                }
+                p.innerText = rel.msg
+            }
+        }
+    }
+
+</script>
+</html>

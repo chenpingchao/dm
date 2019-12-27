@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/cart/index",
+    "pages/menu/index",
+    "pages/menu/detail/index",
+ 
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/search/index"
+    
+ 
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6fc",
+    "navigationBarTitleText": "小程序1号",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+        "color": "#000",
+        "selectedColor": "#000",
+        "borderStyle": "black",
+        "list": [
+      {
+            "selectedIconPath": "images/icon01.png",
+            "iconPath": "images/icon1.png",
+            "pagePath": "pages/menu/index",
+            "text": "首页"  
+
+      },
+      {
+              "selectedIconPath": "images/icon02.png",
+             "iconPath": "images/icon2.png",
+              "pagePath": "pages/cart/index",
+             "text": "购物车"  
+      },
+      {
+            "selectedIconPath": "images/icon03.png",
+              "iconPath": "images/icon3.png",
+             "pagePath": "pages/mine/mine",
+             "text": "用户中心"
+      }
+    ]  
+  }
+}

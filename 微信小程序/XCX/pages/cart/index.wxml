@@ -1,0 +1,29 @@
+<!--pages/cart/index.wxml-->
+
+<block wx:for='{{cart}}' wx:key='j' wx:for-index="i">
+  <view class='cart_list'>
+    <view class='icon'>
+      <icon wx:if='{{item.active == 1 }}' type="success" color='red' bindtap="active" data-key="{{i}}"></icon>
+      <icon wx:else class='active' type="success" color='#fff' bindtap="active" data-key="{{i}}"></icon>
+    </view>
+    <image class='image' src='{{imgUrl}}{{item.image_dir}}350_{{item.image}}'></image>
+    <view>
+      <text class='menu_name'>{{item.menu_name}}</text>
+      <view class='price'>￥{{item.price}}</view>
+      <view class='buynum_box'>
+        <text class='buynum_change' bindtap="minus" data-key="{{i}}" >-</text>
+        <text class='buynum'>{{item.buynum}}</text>
+        <text class='buynum_change' bindtap="add" data-key='{{i}}'>+</text>
+      </view>
+    </view>
+  </view>
+</block>
+
+<view class='bottom'>
+  <view class='icon_all all'>
+    <icon wx:if='{{active==1}}' type="success" color='red' bindtap="allactive"></icon>
+    <icon wx:else class='active' type="success" color='#fff' bindtap="allactive"></icon>
+  </view>
+  <view class='allprice all'>￥:<text class='money'>{{allprice}}</text></view>
+  <view class='buy all'>结算</view>
+</view>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="jQuery-1.8.2.min.js"></script>
+
+</head>
+<body>
+<form action="">
+    <input type="text" name="username" id="username"><span id="p"></span>
+</form>
+</body>
+<script>
+    var p = $('#p');
+    $("#username").blur(function(){
+        $.post("test.php",{username:$(this).val()}, function(rel){
+
+                if(rel.stats == 'ok'){
+                    p.css("color", "green")
+                }else{
+                    p.css("color", "red")
+                }
+                p.text( rel.msg)
+            }
+        ,"json")
+    })
+
+</script>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>点名</h1>
+	<input type="button" id="button" value="开始">
+	<input type="button" id="button2" value="结束">
+</body>
+<script>
+/* 定义对象方法一
+	var useName = new Object();
+	// 属性
+	useName.name = "黑枸杞";
+	useName.skill = "做饭" ;
+	// 方法名
+	useName.yangshi = function(){
+		alert('我叫'+ useName.name +'我会' + useName.skill)
+	};
+	alert(useName.skill);
+	useName.yangshi();
+
+	// 定义对象方法二
+	name1 = {
+		nae : '123123',
+		sasa : function(){
+			document.write('你叫啥？你瞅啥?'+'我叫'+name1.nae+'瞅你咋地')
+		}
+	}
+	document.write(name1.nae);
+	name1.sasa();
+	// 定义对象方法三
+		function gc(yonghu){
+		dx = new Object();
+		dx.name=yonghu;
+		dx.jn=function(){
+			document.write('我叫'+ dx.name+'我会')
+		}
+		return dx
+	}
+	dx1 = gc("王二")
+	dx1.jn()
+	// 定义对象方法四
+	function Gc(yonghu){
+		this.name=yonghu;
+		this.skill = "搬砖"
+		this.jn=function(){
+			document.write('我叫'+ this.name+'我会'+ this.skill)
+		}
+	}
+	dx1 =new Gc("黑山")
+	dx1.jn()*/
+/*字符串的属性
+	var abc =('hewar54o89');
+	console.log(abc.length)
+// 字符串的方法
+	// 查找子字符串位置
+	var abc =('hewar54o89');
+	// console.log(abc.indexOf('a'))
+	// 截取
+	console.log(abc.substr('5'))
+	//替换
+	var abc =('hewar54o89');
+	console.log(abc.charAt('5'))
+	//获取指定位置的字符
+	var abc =('heWAr54o89');
+	console.log(abc.toLowerCase())
+	//转换大小写、】
+	var abc =('hEWar54o89');
+	console.log(abc.toUpperCase())
+	//将字符串分割为数组
+	var abc =('Hollow what is your name');
+	console.log(abc.split( " "))*/
+/*	//数组的属性
+	var arrOb = [12,213,45,56,56,65]
+	console.log(arrOb.length)
+	//转为字符
+	var arrOb = [12,213,45,56,56,65]
+	console.log(arrOb.toString())
+	console.log(arrOb.join())
+	// 链接多个数组
+	var arrOb = [12,213,45,56,]
+	var aa = [23,56,879,897,]
+	console.log(arrOb.concat(arrOb,aa))
+	// 追加元素，并返回新数组的长度
+	var arrOb = [12,213,45,56,56,65]
+	console.log(arrOb.unshift()) //头部追佳
+	console.log(arrOb.push()) //尾部追加
+	// 删除元素并返回该元素
+	var aa = [23,56,879,897,864,887,544]
+	console.log(aa.shift())  //删除第一个元素
+	console.log(aa.pop())  //删除最后一个元素
+	//删除元素后删除并插入新元素
+	var aa = [23,56,879,897,897,8,55,4]
+	console.log(aa.splice(4,2)) //删除元素
+	console.log(aa.splice(4,2,[123,56,87]))  //删除并插入新元素
+	//将数组元素升序排序
+	var aa = [23,56,879,897,8677]
+	console.log(aa.sort())
+	//将数组元素颠倒
+	var aa = [23,56,879,897,897,85,54]
+	console.log(aa.reverse())*/
+/* Math的属性
+	console.log(Math.PI)
+	//四舍五入
+	console.log(Math.round(12.5))
+	console.log(Math.round(12.4))
+	//向上取整
+	console.log(Math.ceil(1.1))
+	console.log(Math.ceil(1.999))
+	//向下取整
+	console.log(Math.floor(3.999))
+	console.log(Math.floor(3.001))
+	// 随机去0-1.0之间的数
+	console.log(Math.random())
+	// 求最大值
+	console.log(Math.max(12,4))
+	// 求最小值
+	console.log(Math.min(23,54))
+	// 求x的y次方
+	console.log(Math.pow(4,2))*/
+/*点名功能
+	//定义数组
+	var arr=["张三","李四","王五","赵六","成七","蒋八"]
+	document.getElementById("button").onclick = function(){
+		// 定时器
+		timer=setInterval(function(){
+			// 取随机值
+			var i = Math.floor(Math.random()*arr.length);
+			//选人
+			document.getElementsByTagName('h1')[0].innerHTML = arr[i];
+		},50)
+	}
+	document.getElementById("button2").onclick = function(){
+		// 清楚定时器
+		clearInterval(timer);
+	}*/
+// 打印日期
+	var dates = new Data(2017-5-7 8:1:2);
+	year = getFullYear(); //年
+	Month = getMonth();  //月
+	Dat = getDate();  //日
+	Month = getMonth(); // 小时
+	Month = getMonth();  //分钟
+	Month = getMonth();  //秒钟
+	Month = getMonth();  //星期
+
+</script>
+</html>

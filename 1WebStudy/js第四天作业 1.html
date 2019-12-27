@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>×÷Òµ</title>
+	<style>
+	/* 	div{
+		width:80px;
+		height:80px;
+		border-radius:80px;
+		background: #0ff;
+	}
+	#div1{
+		position:fixed;
+		left:0;
+		top:0;
+	} */
+		/*a{
+			position:fixed;
+			right:10px;
+			bottom:15px;
+			width:2em;
+			height:2em;
+			background: #0ff;
+			padding:5px;
+			text-decoration: none;
+			text-align:center;
+			color :#fff;
+			display: none;}*/
+		span{
+			color: rgba(0, 161, 254, ;0)
+		}
+	</style>
+</head>
+<body>		<!-- <div id="div1"></div> --> 
+	<form action="">
+		<label for="n01">用户名</label>
+		<input type="text" id="n01" maxlength="12"><span></span><br>
+		<label for="n02">密&emsp;码</label>
+		<input type="password" id="n02" maxlength="12"><span></span><br>
+		<input type="submit" id="submit" value="提交">	 
+ 	</form>
+</body>
+<script>
+// var div1 = document.getElementById('div1');
+	var n01 = document.getElementById('n01');
+	var n02 = document.getElementById('n02');
+	var span1 = document.getElementsByTagName('span')[0]
+	var span2 = document.getElementsByTagName('span')[1]
+	var sub = document.getElementById('submit')
+	// »ñÈ¡½¹µãÌáÊ¾
+	//wenben
+	n01.onfocus = function(){
+		span1.innerHTML = '请输入用户名';
+		span1.style.color= '#666';	
+	}
+	// ÃÜÂë
+	n02.onfocus = function(){
+		span2.innerHTML = '请输入密码';
+		span2.style.color = '#666';
+	}
+	// Ê§È¥½¹µã
+	// ÎÄ±¾
+	var res1
+	n01.onblur = function(){
+		var b = n01.value.length;
+		console.log(b)
+		// ÅÐ¶ÏÎÄ±¾¿ò×Ö·ûÊý
+		if(b>10 ||b<5){
+			span1.innerHTML = '错误';
+			span1.style.color = '#f00'
+			res1 = false;
+		}else{
+			span1.innerHTML = '正确';
+			span1.style.color = 'green'	;
+			res1 = true;		
+		}
+	}
+	// ÃÜÂë
+	var res2
+	n02.onblur = function(){
+		var a = n02.value.length;
+		console.log(a)
+		// ÅÐ¶ÏÎÄ±¾¿ò×Ö·ûÊý
+		if(a>10 ||a<5){
+			span2.innerHTML = '错误';
+			span2.style.color = '#f00'
+			res2 = false;
+		}else{
+			span2.innerHTML = '正确';
+			span2.style.color = 'green'	;
+			res2 = true;		
+		}
+	}
+	// ÑéÖ¤
+	sub.onclick = function(){
+		if(res1 == false || res2 == false){
+			return false;
+		}
+	}
+	
+
+/*// ·µ»Ø¶¥²¿
+	var a = document.getElementById('a');
+	document.onscroll = function(){
+		// ÎÄµµ¹ö¶¯µÄ¸ß¶È
+		var b = document.documentElement.scrollTop;
+		console.log(b)
+		// ÅÐ¶Ï 
+		if(b>=150){
+			a.style.display = 'block'
+		}else{
+			a.style.display = 'none'
+		}
+	}
+	a.oncilck = function(){
+			document.documentElement.scrollTop = 0;
+		}*/
+/*// Í³¼ÆÊäÈëµÄÊý×Ö
+	n01.onkeyup = function(){
+		var a = n01.value.length;
+		var b = 20 - a;
+		document.getElementsByTagName('h2')[0].innerHTML = 'ÄãÒÑÊäÈë' + a + '¸ö×Ö·û£¬»¹Ê£'+ b + '¸ö×Ö·û'
+	}*/
+/*// Êó±êÊÂ¼þ
+	// µ¥»÷Ä³¸ö¶ÔÏó
+	 div1.onclick = function(){
+	 	div1.style.backgroundColor = 'yellow'
+	 }
+	//Ë«»÷Ä³¸ö¶ÔÏó
+	div1.ondblclick = function(){
+		div1.innerHTML = 'ÉÏÌìÈëµØ£¬ÎÞËù²»ÄÜ'
+	}
+	//Êó±êÒÆµ½Ä³¸öÔªËØÉÏ
+	div1.onmouseover = function(){
+		div1.innerHTML = 'Äã¾Í´µ°É'
+	}
+	// Êó±ê´ÓÄ³¸öÔªËØÒÆ¿ª
+	div1.onmouseout = function(){
+		div1.innerHTML = 'ÎÒ²»ÏàÐÅ'
+	}
+	// Êó±ê°´¼ü±»°´ÏÂ
+	div1.onmousedown = function(){
+		div1.style.backgroundColor = 'pink'
+	}
+	// Êó±ê°´¼ü±»ËÉ¿ª
+	div1.onmouseup = function(){
+		div1.style.backgroundColor = '#000'
+	}*/
+/*// ¼üÅÌÊÂ¼þ
+	// ¼üÅÌÄ³¸ö°´¼ü±»°´ÏÂ
+	window.onkeydown = function(events){
+		console.log(event)
+		if(event.keyCode == 67){
+			div1.innerHTML = 'µ±ËûÞôÏÂÊ±£¬ËûÊÇÒ»¸ö¿ì½Ý¼ü'
+		}
+	}	
+	// ¼üÅÌÄ³¸ö°´¼ü±»±»ËÉ¿ª
+	window.onkeyup = function(event){
+		console.log(event)
+		if(event.keyCode == 67){
+			div2.innerHTML = 'Ã»Ïëµ½°É£¡ËüËÉ¿ªÒ²ÊÇÒ»¸ö¿ì½Ý¼ü'
+		}}*/	
+/*// °´ÏÂÊó±êÍÏ¶¯Ð¡Çò¸ú×ÅÊó±ê
+	//µã»÷Êó±ê
+	div1.onmousedown = function(){
+		//¹â±êÑùÊ½
+		div1.style.cursor = 'pointer';
+		//Ð¡ÇòËæÊó±êÒÆ¶¯
+		div1.onmousemove = function(event){
+			console.log(event);
+			// Ä¿±ê×ø±ê
+			totop = event.clientY -40;
+			toleft = event.clientX -40;
+			//Ð¡Çò×ø±êºÍÒ»ÖÂ
+			div1.style.position = 'fixed';
+			div1.style.top = totop + 'px';
+			div1.style.left = toleft + 'px';
+		}
+	}
+	// ËÉ¿ªÊó±ê
+	div1.onmouseup = function(){
+		div1.style.cursor = 'default';
+		div1.onmousemove = false;
+	}*/
+/*// »Ø³µÌá½»±íµ¥	
+	tj.onkeydown = function(event){
+		// »ñÈ¡°´Å¥±êºÅ
+		console.log(event)
+		if(event.keyCode == 13){
+			document.getElementByTagName('form')[0] = submit()
+		}
+	}*/
+/*// ¼üÅÌÒÆ¶¯Ð¡Çò(ÉÏ38 ÏÂ40 ×ó37  ÓÒ39)
+	var x = 0;//x·½Ïò
+	var y = 0;//y·½Ïò
+	window.onkeydown = function(event){
+		console.log(event);
+		switch(event.keyCode){
+			case 37:x -= 5 ;break;
+			case 38:y -= 5 ;break;	 
+			case 39:x += 5 ;break;	 
+			case 40:y += 5 ;break;	 
+		}
+		div1.style.left = x + 'px';
+		div1.style.top = y + 'px';	 
+	}*/
+</script>
+
+</html>

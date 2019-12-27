@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="__PUBLIC__/jQuery-1.8.2.min.js"></script>
+</head>
+<body>
+<form action="" method="post" id="form">
+    场景号<input type="text" name="scene_id"><br>
+    场景负责人<input type="text" name="name"><br>
+    有效时间<input type="text" name="expire_seconds">
+    <input type="submit"value="提交">
+</form>
+</body>
+<script>
+    $('#form').submit(function () {
+        $.post('',$(this).serialize(),function (data) {
+            if(data.status == 1){
+                parent.layer.closeAll();
+                parent.layer.msg('二维码生成成功')
+            }else{
+                parent.layer.closeAll();
+                parent.layer.msg('二维码生成失败')
+
+            }
+        })
+        return false;
+    })
+</script>
+</html>

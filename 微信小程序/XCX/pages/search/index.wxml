@@ -1,0 +1,40 @@
+<!--pages/search/index.wxml-->
+<form bindsubmit="search">
+  <view class='search'>
+    <view class='search_box'>
+      <icon type='search' class='icon'></icon>
+      <input name='keywords' focus class='search_input'></input>
+    </view>
+    <button size='mini' form-type='submit'>搜索</button>
+  </view>
+</form>
+<view class='paixu'>
+<view class='p'>
+  <text>价格</text>
+  <view class='price'>
+    <text class="{{priceAsc}}" bindtap="priceSort" data-sort="asc"></text>
+    <text class="{{priceDesc}}" bindtap="priceSort" data-sort="desc"></text>
+  </view>
+</view>
+<view class="s">
+  <text>销量</text>
+  <view class='saled'>
+    <text class="{{saledAsc}}" bindtap="saledSort" data-sort="asc"></text>
+    <text class="{{saledDesc}}" bindtap="saledSort" data-sort="desc"></text>
+  </view>
+</view>
+</view>
+  <block wx:for="{{menu}}" wx:key="m">
+    <view class='box'>
+      <image class='img' src='{{imgUrl}}{{item.image_dir}}350_{{item.image}}'></image>
+      <view class='text'>
+        <text class='name'>{{item.menu_name}}</text>
+        <view class="price_saled">
+        <text class='price'>￥{{item.price}}</text>
+        <text class='saled'>销量：{{item.saled_num}}</text>
+        </view>
+        <button size="mini" class='button'>立即购买</button>
+      </view>
+    </view>
+  </block>
+  <view class='end'>已经到最后啦</view>

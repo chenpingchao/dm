@@ -1,0 +1,30 @@
+/**index.wxss**/
+page{
+  background: #66ffcc;
+}
+.box{
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.logo{
+  width:300rpx;
+  height:100rpx;
+  margin:200rpx auto 150rpx auto;
+}
+
+.XCX_name{
+  font-size: 60rpx;
+  font-weight:bold;
+}
+
+.XCX_developer{
+  margin:50rpx auto 100rpx auto;
+  color:rgb(112, 106, 106);
+}
+
+.start{
+  background: #11ee36;
+  padding:10rpx 40rpx 10rpx 40rpx;
+}

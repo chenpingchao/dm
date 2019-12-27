@@ -1,0 +1,34 @@
+<!--pages/menu/index.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" 
+    interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <image class="swiper-item" src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<form bindsubmit="search">
+  <view class='search'>
+    <view class='search_box'>
+      <icon type='search' class='icon'></icon>
+      <input name='keywords' focus class='search_input'></input>
+    </view>
+    <button size='mini' form-type='submit'>搜索</button>
+  </view>
+</form>
+  <block wx:for="{{menu}}" wx:key="m">
+    <view class='box'>
+      <navigator url='/pages/menu/detail/index?id={{item.id}}'>
+      <image class='img' src='{{imgUrl}}{{item.image_dir}}350_{{item.image}}'></image>
+      </navigator>
+      <view class='text'>
+        <text class='name'>{{item.menu_name}}</text>
+        <text class='price'>￥{{item.price}}</text>
+        <text class='saled'>销量 ： {{item.saled_num}}</text>
+        <button size="mini" class='button'>立即购买</button>
+      </view>
+    </view>
+  </block>
+  <view class='end'>已经到最后啦</view>
+

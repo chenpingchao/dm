@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复习</title>
+</head>
+<body>
+<h1></h1>
+<button>开始</button>
+</body>
+<script>
+/*    // 定义对象的四种方法
+var duixiang = {
+    namer:"zhangsan",
+    jineng:function(){
+        console.log('tademingzijiao'+duixiang.namer)
+    }
+};
+duixiang.jineng();
+
+function gognchang(names){
+    this.name = names;
+    this.jinan = function(){
+        alert("卡价格热火"+this.name)
+    }
+    }
+    abc = new gognchang("zhangshan");
+    abc.jinan();*/
+/*//倒计时
+    var button = document.getElementsByTagName('button')[0]
+    var h1 = document.getElementsByTagName('h1')[0]
+    var timer;
+    button.onclick = function(){
+        var n=10;
+        if(timer){
+            clearInterval(timer)
+        }
+        timer = setInterval(function(){
+
+            if(n>=0) {
+                h1.innerHTML = "还有" + n + "秒";
+            }else{
+                clearInterval(timer)
+            }
+            n--;
+        },1000)
+    }*/
+/*    var date = new Date();
+    var year = date.getFullYear();
+    console.log(year)
+    var month = date.getMonth();
+console.log(month)
+    var dater= date.getDate();
+console.log(dater)
+    var hours= date.getHours();
+console.log(hours)
+    var minutes= date.getMinutes();
+console.log(minutes)
+    var seconds= date.getSeconds();
+console.log(seconds)
+    var day = date.getDay();
+console.log(day)
+    var timer = date.getTime();
+console.log(timer)*/
+/*var day1 = new Date('2019/10/1 0:0:0');
+var day2 = new Date();
+var second1 = day1.getTime();
+var second2 = day2.getTime();
+var timed = parseInt((second1 - second2)/1000);
+var seconds = parseInt(timed%60);
+var minutes = parseInt(timed/60)%60;
+var hours = parseInt(timed/3600)%24;
+var day = parseInt(timed/(24*60*60));
+console.log('倒计时'+ day + '天'+ hours+'小时'+ minutes + '分钟' + seconds+  '秒');*/
+var abc;
+console.log(typeof(123123));
+console.log(typeof("123123"));
+console.log(typeof(sadfoipj));
+console.log(typeof(true));
+console.log(typeof(false));
+console.log(typeof(null));
+
+
+console.log("下一个");
+/*console.log(string(true));
+console.log(string(false));
+console.log(string(underfined));
+console.log("下一个");
+*/
+console.log(Number('1231231231'))
+var objected = {
+    name : "zhangshan",
+    jineng :function(){
+        alert("卡价格热火"+this.name)
+    }
+}
+console.log(objected.name);
+console.log(objected.jineng())
+
+</script>
+</html>

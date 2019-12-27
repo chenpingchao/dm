@@ -1,0 +1,126 @@
+---------------------------------------------------------------
+
+[2019-12-10T14:45:26+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.075004s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.009000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:46:09+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:46:26+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:47:47+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:50:53+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070004s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:51:01+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:51:12+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:51:26+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:51:36+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:54:53+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:55:12+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:55:48+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:56:12+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059003s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:56:30+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:56:46+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:57:00+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:57:56+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T14:58:06+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T15:03:36+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T15:05:41+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-10T15:06:02+08:00] 127.0.0.1 GET api.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=yhshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.020002s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]

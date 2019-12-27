@@ -1,0 +1,32 @@
+/* pages/mine/mine.wxss */
+page{
+  background: #ccc;
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+.image{
+  margin:50rpx 0 ;
+  width: 100rpx;
+  height:100rpx;
+}
+.name{
+  font-size: 60rpx;
+}
+.cart{
+
+  height:80rpx;
+  margin-top:20rpx;
+  padding: 0 40rpx 0rpx 20rpx;
+  background:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.a{
+  margin-top:6rpx;
+}

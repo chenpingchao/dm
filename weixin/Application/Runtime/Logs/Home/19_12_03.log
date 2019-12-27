@@ -1,0 +1,131 @@
+[ 2019-12-03T08:41:39+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=4ac6741a325df4684bdca87715bfc816ebc43792&timestamp=1575333699&nonce=1596288547&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=ee39be412ec36df4f59baf9a1ee9c8564d1c3f29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-12-03T08:41:45+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=988e3193809e4786106bf429d44d4abcff08cb66&timestamp=1575333705&nonce=1107352879&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=e7819797a918a2ccc3ac661fb865d5afb68ffd2f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-12-03T13:54:20+08:00 ] 223.166.222.117 /Home/WeiXin/yanzheng?signature=98f546f62e53801c89d5abea67b291c241d84e84&echostr=7953965110881286638&timestamp=1575352460&nonce=1683376864
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Trying to get property of non-object /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 38 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-12-03T15:13:24+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=cff871ea12d2ef7bd6fc6b39fe1f0f69102dbe02&timestamp=1575357204&nonce=4228568&openid=oRfzrsvXaosX-OhEEQ2xtq5_oAwM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2019-12-03T15:13:38+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=40adf2c47d2c7cb0c678d826400d6294d8cf06d7&timestamp=1575357218&nonce=1541785301&openid=oRfzrsvXaosX-OhEEQ2xtq5_oAwM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-12-03T15:14:12+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=4768e772657894e61becaf523986be6b5cb0076b&timestamp=1575357251&nonce=1435730949&openid=oRfzrsvXaosX-OhEEQ2xtq5_oAwM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-12-03T15:24:49+08:00 ] 223.211.215.60 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-12-03T15:40:33+08:00 ] 223.166.222.112 /Home/WeiXin/yanzheng?signature=9e749c08c1730ba8e839b34400df21f4ef142c64&echostr=2462954663066386301&timestamp=1575358833&nonce=330058593
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Trying to get property of non-object /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 38 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2019-12-03T15:44:26+08:00 ] 223.166.222.112 /Home/WeiXin/yanzheng?signature=5ea18eab2ea2730f5f27494d8cefd15f1200189a&echostr=7092307732575793758&timestamp=1575359066&nonce=1670610586
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Trying to get property of non-object /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 38 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2019-12-03T16:19:14+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=f1445cc3fe592ee6470360350eb3168253e71f66&timestamp=1575361154&nonce=1817043659&openid=oRfzrsvXaosX-OhEEQ2xtq5_oAwM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-12-03T16:19:22+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=6ae6a0f40dcb36072b0edcf756d33fb82986c13b&timestamp=1575361162&nonce=1689215049&openid=oRfzrsvXaosX-OhEEQ2xtq5_oAwM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+

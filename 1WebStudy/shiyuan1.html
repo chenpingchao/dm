@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charest="UTF-8">
+	<meta name="keyworld"content="HTML w3c">
+	<meta name="description"content="各种图片">
+	<title>你好</title>	
+	<base target="_self">
+	
+</head>
+<body>
+<!-- 	<h1>m目录</h1>
+<a href="#di1">第一张图</a>
+<a href="#di2">第二张图</a>
+<a href="#di3">第三张图</a>
+<a href="#di4">第四张图</a>
+    
+    <a name="di1"></a>
+<h2>第一张图</h2>
+     <img src="E:\代码\html\day1/1.jpeg" alt="无图片" title="风景" width="500px" height="500px">
+
+     <a name="di2"></a>
+<h2>第2张图</h2>
+     <img src="E:\代码\html\day1/shape.jpg" alt="无图片" title="风景" width="500px" height="500px">
+     <a name="di3"></a>
+<h2>第3张图</h2>
+     <img src="E:\代码\html\day1/8649940_220505558734_2.jpg" alt="无图片" title="风景" width="500px" height="500px">
+
+     <a name="di4"></a>
+<h2>第4张图</h2>
+<img src="E:\代码\html\day1/10197997_003647426000_2.jpg" alt="无图片" title="风景" width="500px" height="500px">
+    <a href="http://www.jd.com" target="_blank" title="这是一个购物网站">京东</a>
+    <a href ="#">回到顶部</a>
+    <a href="javascript:;">原地待命</a>
+    <img src="E:\代码\html\day1/qiqiaoban .jpg" alt="无图片" usemap="qiqiaoban">
+    <map name="qiqiaoban" id="qiqiaoban">
+    	<area shape=”poly” cords=”” href=”链接”>
+     <area shape=”poly ” cords=”x,y,r” href=”链接”> 
+    <area shape=”poly” cords=”x1, y 1, x 2,y2…xnyn” href=”链接”> -->
+<h1>倒计时10秒</h1>
+<button>倒计时</button>
+<button>暂停</button>
+<table>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="check[]"></td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+		<td>iorofsidh </td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="checkAll"></td>
+		<td colspan = "6">111111111</td>
+	</tr>
+	<input type="checkbox" name="abc[]" value="2">
+	<input type="checkbox" name="abc[]" value="5">
+	<input type="checkbox" name="abc[]" value="7">
+	<input type="checkbox" name="abc[]" value="0">
+	<input type="checkbox" name="abc[]" value="45" checked>
+</table>
+</body>
+<script>
+
+	var cheAll = document.getElementsByName('checkAll')[0]
+	var che = document.getElementsByName('check[]')
+	// 全选全不选
+	cheAll.onclick = function(){
+		for(var i=0;i<che.length;i++){
+			che[i].checked = cheAll.checked
+		}
+	}
+	// 保持全选的准确
+	for(var i=0;i<che.length;i++){
+		che[i].onclick = function(){
+			var m = 0;
+			for(var n=0;n<che.length;n++){
+				if(che[n].checked){
+					m++
+				}
+				if(m==che.length){
+					cheAll.checked = true;
+				}else{
+					cheAll.checked = false;
+				}
+			}
+		}
+	}
+
+	var timer	
+		document.getElementsByTagName('button')[0].onclick = function(){
+			var a = 10;
+			if(timer){
+				clearInterval(timer)
+			}
+			timer = setInterval(function(){
+				if(a<=0){
+					clearInterval(timer)
+				}			
+				document.getElementsByTagName('h1')[0].innerHTML = "倒计时" + a + "秒";
+				a -=1;			
+				},1000)
+			}
+		
+		document.getElementsByTagName('button')[1].onclick = function(){
+			clearInterval(timer)
+		}	
+
+</script>
+</html>

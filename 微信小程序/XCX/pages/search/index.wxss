@@ -1,0 +1,41 @@
+/* pages/search/index.wxss */
+.p,.s,.paixu{
+  display: flex;
+  justify-content:space-around;
+
+}
+.price,.saled{
+  display: flex;
+  flex-direction:column;
+  margin-left: 2rpx 0 2rpx 40rpx ;
+  
+}
+.price-asc,.saled-asc{
+  margin-top:2rpx;
+  border-bottom:20rpx solid #000;
+  border-left:20rpx solid transparent;
+  border-right:20rpx solid transparent;
+}
+.price-desc,.saled-desc{
+  margin-top:2rpx;
+  border-top:20rpx solid #000;
+  border-left:20rpx solid transparent;
+  border-right:20rpx solid transparent;
+}
+.price-asc-active,.saled-asc-active{
+  border-bottom: 20rpx solid #f00;
+   border-left:20rpx solid transparent;
+  border-right:20rpx solid transparent;
+}
+.price-desc-active,.saled-desc-active{
+  border-top: 20rpx solid #f00;
+   border-left:20rpx solid transparent;
+  border-right:20rpx solid transparent;
+}
+
+.price_saled{
+  display: flex;
+  justify-content:space-around;
+}
+
+@import '/pages/menu/index.wxss';

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <dl>
+        <dt>商品列表</dt>
+        {foreach $goods as $v}
+        <dd>
+            <span>{$v@iteration}</span>
+            <span><a href="/MVC/index.php?c=goods&a=goodsDetail&id={$v.id}">{$v.goodsname}</a></span>
+            <span>{$v.price}</span>
+            <span>{$v.store_num}</span>
+        </dd>
+        {foreachelse}
+
+        {/foreach}
+    </dl>
+</body>
+</html>

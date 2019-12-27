@@ -1,0 +1,30 @@
+{extends file="extend/parent.html"}
+
+{block name="cx"}
+    已经完成重写
+{/block}
+
+{*追加内容*}
+{*前面*}
+
+{block name="qzj" prepend}
+前边完成追加
+{/block}
+
+{*后面*}
+
+{block name="zj" append}
+后边完成追加
+{/block}
+
+{*父中间追加内容*}
+
+{block name="fu"}
+父的中间追加
+{/block}
+
+{*子中间追加内容*}
+
+{block name="zi"}
+  <p>子的中间追加{$smarty.block.parent}加追间中的子</p>
+{/block}

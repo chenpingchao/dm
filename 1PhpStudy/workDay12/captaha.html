@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+</head>
+<body>
+<form action="back.php" >
+    <input type="text" name="captcha">
+    <img src="back.php" onclick="this.src='back.php?Num='+Math.random()">
+</form>
+</body>
+</html>

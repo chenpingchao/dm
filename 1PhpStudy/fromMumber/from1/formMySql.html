@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>提交表单</title>
+    <style>
+        dd{
+            text-align: center;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+        .yz{
+            position: relative;
+            left:-7px;
+        }
+    </style>
+</head>
+<body>
+<form action="formMySol.php?zxc=add" method="post">
+      <dl>
+          <dd>会员注册表</dd>
+          <dd>
+              <span>用户名：</span>
+              <input type="text" name="username" maxlength="20">
+          </dd>
+          <dd>
+              <span>密&emsp;码：</span>
+              <input type="password" name="password" maxlength="20">
+          </dd>
+          <dd class="yz">
+              <span>验证密码：</span>
+              <input type="password" name="password1" maxlength="20">
+          </dd>
+          <dd>
+              <input type="submit" name="submint" value="点击验证">
+          </dd>
+      </dl>
+</form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.8.2.js"></script>
+    <style>
+        div{
+            width:492px;
+            height:200px;
+            border:1px solid #111111;
+        }
+        dl{
+            margin: 0;
+        }
+        dd{
+            float: left;
+            width:80px;
+            height:25px;
+            margin:1px;
+            text-align: center;
+            background:red;
+        }
+        dd.active{
+            background:#00A3EC;
+            font-weight: bold;
+        }
+        .good{
+            display: none;
+        }
+        .block{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <dl>
+        <dd class="active">菜单一</dd>
+        <dd>菜单二</dd>
+        <dd>菜单三</dd>
+        <dd>菜单四</dd>
+        <dd>菜单五</dd>
+        <dd>菜单六</dd>
+    </dl>
+    <ul class="good block">
+        <li>一 某手机</li>
+        <li>一 某手机</li>
+        <li>一 某手机</li>
+    </ul>
+    <ul class="good">
+        <li>二 某商品</li>
+        <li>二 某商品</li>
+        <li>二 某商品</li>
+    </ul>
+    <ul class="good">
+        <li>三 某小吃</li>
+        <li>三 某小吃</li>
+        <li>三 某小吃</li>
+    </ul>
+    <ul class="good">
+        <li>四 某粮油</li>
+        <li>四 某粮油</li>
+        <li>四 某粮油</li>
+    </ul>
+    <ul class="good">
+        <li>五 某服装</li>
+        <li>五 某服装</li>
+        <li>五 某服装</li>
+    </ul>
+    <ul class="good">
+        <li>六 某电脑</li>
+        <li>六 某电脑</li>
+        <li>六 某电脑</li>
+    </ul>
+</div>
+</body>
+<script>
+    //菜单栏
+    $("dd").mousemove(function(){
+        $("dd").removeClass("active").eq($(this).index()).addClass("active")
+    //详情栏
+        $(".good").removeClass('block').eq($(this).index()).addClass('block')
+    })
+</script>
+</html>

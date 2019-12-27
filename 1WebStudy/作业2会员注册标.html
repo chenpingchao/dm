@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>会员注册表</title>
+</head>
+<body>
+	<form action="center" method="get">
+		<table border="1" width="500" height="700" bordercolor="#ee0000"
+		cellspacing="0" align="center">
+			<tr align="center">
+				<td colspan="2">
+					<b>本站会员注册系统</b>
+				</td>
+			</tr>
+			<tr>
+				<td width="100" align="center">姓名：</td>
+				<td>
+					<input type="text" name="usename" maxlength="20" placeholder="请输入姓名">
+				</td>
+			</tr>
+			<tr>
+				<td align="center">密码：</td>
+				<td>
+					<input type="password" name="password"maxlength="20" placeholder="请输入密码">
+				</td>
+			</tr >
+			<tr>
+				<td align="center">性别：</td>
+				<td>
+					<label for="nan">男</label>
+						<input type="radio" name="sex" id="nan" value="man">
+					<label for="nv">女</label>
+						<input type="radio" name="sex" id="nv" value="women">
+				</td>
+			</tr>
+			<tr>
+				<td align="center">学历：</td>
+				<td>
+					<select name="xueli">
+						<option value="gaozhong">高中</option>
+						<option value="zhuanke">专科</option>
+						<option value="benke">本科</option>
+					</select>
+		   		</td>
+			</tr>
+			<tr>
+				<td align="center">职业：</td>
+				<td>
+					<input type="radio" name="job" id="student" value="student">
+						<label for="student"> 学生</label><br>
+					<input type="radio" name="job" id="worker" value="worker">
+						<label for="worker">工人</label><br>
+					<input type="radio" name="job" id="merchant" value="merchant">
+						<label for="merchant"> 商人</label><br>
+					<input type="radio" name="job" id="scholars" value="scholars">
+						<label for="scholars"> 学者</label>
+				</td>
+			</tr>			
+			<tr>
+				<td align="center">爱好：</td>
+				<td>
+					<label for="music">音乐</label>
+						<input type="checkbox" name="hobby[]" id="music" value="music">
+					<label for="pe">体育</label>
+						<input type="checkbox" name="hobby[]" id="pe" value="pe">
+					<label for="calligraphy">书法</label>
+						<input type="checkbox" name="hobby[]" id="calligraphy" value="calligraphy">
+					<label for="communication">交际</label>
+						<input type="checkbox" name="hobby[]" id="communication" value="communication">
+					<label for="shopping">购物</label>
+						<input type="checkbox" name="hobby[]" id="shopping" value="shopping">
+				</td>
+			</tr>
+			<tr>
+				<td align="center">协议：</td>
+				<td>
+					<textarea name="agreement" cols="40" rows="10">abcabcabcbchaajfhfhaoiushofhaksfdjoiwehfoahwfiweohfiwoehfwpoahfphahioewhfjoiwejfowhefjwioaefowje</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">如果你想了解本站其他信息请选择：
+					<select name="search">
+						<option value="baidu">百度</option>
+						<option value="sougou">搜狗</option>
+						<option value="google">谷歌</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="同意并提交">
+					<input type="reset" value="重置">
+				</td>
+			</tr>
+
+		</table>
+	</form>
+	
+</body>
+</html>

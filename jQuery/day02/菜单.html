@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.8.2.js"></script>
+    <style>
+        dd{
+            width:80px;
+            height:25px;
+            margin:1px;
+            text-align: center;
+            background:red;
+        }
+        dd.active{
+            background:#00A3EC;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<dl>
+    <dd class="active">菜单一</dd>
+    <dd>菜单二</dd>
+    <dd>菜单三</dd>
+    <dd>菜单四</dd>
+    <dd>菜单五</dd>
+    <dd>菜单六</dd>
+</dl>
+</body>
+<script>
+    $("dd").mousemove(function(){
+        $(this).addClass("active").siblings().removeClass('active')
+    })
+</script>
+</html>

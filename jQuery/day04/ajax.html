@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="jQuery-1.8.2.min.js"></script>
+
+</head>
+<body>
+<form action="">
+    <input type="text" name="username" id="username"><span id="p"></span>
+</form>
+</body>
+<script>
+    var p = $("#p");
+    $("#username").blur(function() {
+        $.ajax({
+            //服务器的url
+            url: "test.php?username=" + this.val(),
+            //传输的数据
+            data: '',
+            //传输数据的类型
+            type: 'get',
+            //接受数据要转换的类型
+            dataType: 'json',
+            //监听接受的数据并进行处理
+            success: function (rel) {
+                if (rel.stats == 'ok') {
+                    p.css("color", "green")
+                } else {
+                    p.css("color", "red")
+                }
+                p.text( rel.msg)
+            }
+        })
+    })
+
+</script>
+</html>

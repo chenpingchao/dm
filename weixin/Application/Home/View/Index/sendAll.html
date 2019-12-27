@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="__PUBLIC__/jQuery-1.8.2.min.js"></script>
+</head>
+<body>
+<form action="" method="post" id="form">
+    <textarea name="content" id="" cols="30" rows="10"></textarea>
+    <input type="submit"value="提交">
+</form>
+</body>
+<script>
+    $('#form').submit(function () {
+        $.post("{:U('sendAll')}",$(this).serialize(),function (data) {
+            if(data.status == 1){
+                parent.layer.closeAll();
+                parent.layer.msg('消息发送成功')
+            }else{
+                parent.layer.closeAll();
+                parent.layer.msg('消息发送失败')
+
+            }
+        })
+        return false;
+    })
+</script>
+</html>

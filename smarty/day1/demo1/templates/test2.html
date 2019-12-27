@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<p>{$smarty.get.username}</p>
+<p>{$smarty.post.msg}</p>
+<p>{$smarty.cookies.age}</p>
+<p>{$smarty.session.say}</p>
+<p>{$smarty.now}</p>
+<p>{$smarty.const.ROOT}</p>
+<p>{$smarty.version}</p>
+<p>{date('Y-m-d',time())}</p>-->
+
+<!--声明变量
+{assign var='username' value='Rose'}
+{assign "age" "19"}
+{$msg="女装大佬"}
+<p>{$username}-{$age}-{$msg}</p>-->
+
+<!--{*if语句*}
+{$num = 4}
+
+{if $num>5}
+<p>一等奖</p>
+{elseif $num>3}
+<p>二等奖</p>
+{elseif $num>1}
+<p>三等奖</p>
+{else}
+<p>安慰奖</p>
+{/if}-->
+
+<!--{*for循环*}
+{for $i=1 to 100 step 7 max=11}
+<span>{$i}</span>
+{forelse}
+<p>错误</p>
+{/for}-->
+
+<!--{*while循环*}
+<p>
+    {$i=0}
+    {while $i<10}
+        {$i++}
+    {/while}
+</p>-->
+
+
+<table width="800">
+    <tr>
+        <th>标题</th>
+        <th>名称</th>
+        <th>价格</th>
+        <th>数量</th>
+    </tr>
+    {foreach $arr as $k=>$v}
+    <tr>
+        <th>{$k+1}</th>
+        <th>{$v.goodsname}</th>
+        <th>{$v.price}</th>
+        <th>{$v.store_num}</th>
+    </tr>
+    {foreachelse}
+    <tr>
+        <th colspan="4">暂无商品</th>
+    </tr>
+    {/foreach}
+</table>
+</body>
+
+</html>

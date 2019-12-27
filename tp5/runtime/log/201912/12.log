@@ -1,0 +1,80 @@
+---------------------------------------------------------------
+
+[2019-12-12T14:46:11+08:00] 127.0.0.1 GET api.com/menu
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'one'@'localhost' (using password: YES)
+---------------------------------------------------------------
+
+[2019-12-12T14:46:18+08:00] 127.0.0.1 GET api.com/menu
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'one'@'localhost' (using password: YES)
+---------------------------------------------------------------
+
+[2019-12-12T14:46:26+08:00] 127.0.0.1 GET api.com/menu
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'one'@'localhost' (using password: YES)
+---------------------------------------------------------------
+
+[2019-12-12T14:47:03+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:12.037688s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'one.menu' doesn't exist
+---------------------------------------------------------------
+
+[2019-12-12T14:47:14+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'one.menu' doesn't exist
+---------------------------------------------------------------
+
+[2019-12-12T14:48:05+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.040002s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.009001s ]
+---------------------------------------------------------------
+
+[2019-12-12T14:49:12+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-12T14:51:15+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-12T14:53:21+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.002000s ]
+[ error ] [8]未定义变量: menu
+---------------------------------------------------------------
+
+[2019-12-12T14:53:22+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.002000s ]
+[ error ] [8]未定义变量: menu
+---------------------------------------------------------------
+
+[2019-12-12T14:53:35+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+
+[2019-12-12T14:53:54+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: data
+---------------------------------------------------------------
+
+[2019-12-12T14:54:14+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: menu
+---------------------------------------------------------------
+
+[2019-12-12T14:54:46+08:00] 127.0.0.1 GET api.com/menu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=10.50.0.158;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `one_menu` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `one_menu` [ RunTime:0.002000s ]

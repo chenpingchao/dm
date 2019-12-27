@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-1.8.2.js"></script>
+    <style>
+        dl{
+            margin: 1px;
+        }
+        dt,dd{
+            margin: 1px;
+            width:150px;
+            height:32px;
+            text-align: center;
+            line-height: 32px;
+        }
+        dt{
+            background: #0c64d2;
+        }
+        dd{
+            background:#0f9ae0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <dl>
+        <dt>后台首页</dt>
+        <dd>后台详情</dd>
+    </dl>
+    <dl>
+        <dt>商品管理</dt>
+        <dd>商品添加</dd>
+        <dd>商品列表</dd>
+    </dl>
+    <dl>
+        <dt>管理员管理</dt>
+        <dd>管理员添加</dd>
+        <dd>管理员列表</dd>
+    </dl>
+    <dl>
+        <dt>分类管理</dt>
+        <dd>分类添加</dd>
+        <dd>分类列表</dd>
+    </dl>
+    <dl>
+        <dt>订单管理</dt>
+        <dd>订单处理</dd>
+        <dd>订单列表</dd>
+    </dl>
+    <dl>
+        <dt>会员管理</dt>
+        <dd>会员列表</dd>
+    </dl>
+</body>
+<script>
+    $("dt").click(function(){
+        $(this).nextAll("dd").slideToggle(500).parent().siblings("dl").children("dd").slideUp(500)
+    })
+</script>
+</html>

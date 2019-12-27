@@ -1,0 +1,488 @@
+[ 2019-12-02T14:22:03+08:00 ] ::1 /wechat/1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2019-12-02T14:23:18+08:00 ] ::1 /wechat/1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-12-02T16:13:27+08:00 ] ::1 /weixin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-12-02T16:31:21+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-12-02T16:32:28+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-12-02T16:34:48+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2019-12-02T16:35:52+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2019-12-02T16:38:45+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 非法操作:index
+
+[ 2019-12-02T16:40:04+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-12-02T16:40:06+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-12-02T16:40:09+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2019-12-02T16:40:25+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2019-12-02T16:42:15+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2019-12-02T16:44:04+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+ERR: syntax error, unexpected '}', expecting ',' or ';'
+
+[ 2019-12-02T16:44:04+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+ERR: syntax error, unexpected '}', expecting ',' or ';'
+
+[ 2019-12-02T16:44:33+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2019-12-02T16:44:34+08:00 ] 223.211.215.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-12-02T16:45:38+08:00 ] 223.211.215.55 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-12-02T16:45:54+08:00 ] 223.166.222.112 /Home/WeiXin/yanzheng?signature=653ad2d11a5fa0a232efe4515053c8b260b9b360&echostr=7362166892959039467&timestamp=1575276354&nonce=83000119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+ERR: Function name must be a string
+
+[ 2019-12-02T16:47:17+08:00 ] 223.166.222.112 /Home/WeiXin/yanzheng?signature=46581fb253b64a70a901163c1857d7ed0a8f5026&echostr=2512660530069958655&timestamp=1575276437&nonce=2035788213
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-12-02T17:52:21+08:00 ] 47.100.171.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2019-12-02T22:06:21+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=b30023233f8641b43a0390e3bc6e466ec1fd9372&timestamp=1575295581&nonce=966336037&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=d8695e7ef3a1e7047ed2f98f2ef60cfcc5c0e96f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:07:37+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=0fa2f904dc52bcc62a4d7963f82ce9ad84468ed8&timestamp=1575295657&nonce=1341232641&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=3d32291546491916715316ec23d45ca70f1db235
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:08:03+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=181c98483c15a38be1b55ca1baf7e40b065d811a&timestamp=1575295683&nonce=1247720934&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=8635d298756a88beb6fad71727729d3372776db4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:08:13+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=606e47c0d0174a20eda2da756f3b85e10591218a&timestamp=1575295693&nonce=483625457&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=4e4bc382821f83dc58d2f4226dee871e53f39c4b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:11:09+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=a8d8a501b918deb3186927818e00b8a197d9cbae&timestamp=1575295868&nonce=829765756&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=80bdaf685aec457933f25faf16faf22629d6f7ab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:11:15+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=064d05d6bda8ffee7f5b9538bd1207a9eff9b084&timestamp=1575295875&nonce=453620761&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=7e5cefb3aae51174bdd2b14abef4e83fb22f9915
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:13:21+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=86a1ab707f3f19a1be37063bc2f25d8bc00973d9&timestamp=1575296001&nonce=796369228&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=0ab0aededfc74b143937c29968ffb1ed74901728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:15:36+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=a2edfa878aea0da9bdebce5d22ed49934ee26365&timestamp=1575296136&nonce=2102352067&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=c9c822323191ce47d60f9c90899fd39165b1d330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:15:48+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=96609e8b1d43ed9b96354d0db4e24a4e67b173d7&timestamp=1575296148&nonce=500697184&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=1db4f4502754c518b37161fa9c1e23a7fa18da2f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2019-12-02T22:19:04+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=59b5524b5c92770a92b4b4c9d64be891269f27ba&timestamp=1575296343&nonce=2030574155&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=4edc15809af72ac2a78778cda6f6f0fcfd65e31f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2019-12-02T22:19:13+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=66eb6dbaf15d487c9acca2ce9fd8838ace430476&timestamp=1575296352&nonce=1535425305&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=2c380c8fe5b2858fe21f176c02e1c07fc7e6e861
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-12-02T22:21:54+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=3c2b3a6c0aefcc22ce986f87036ca47b56fbb124&timestamp=1575296514&nonce=555448690&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=2acbbd861facd03f2b21577061b87df4be5e1c0d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+ERR: Think\Controller:textMsg方法不存在！
+
+[ 2019-12-02T22:22:10+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=5d1095dfb714913394819b98cff5d99223b84201&timestamp=1575296530&nonce=1032381708&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=953f1d4c0e9fe02a264b0220ba58312920e476bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+ERR: Think\Controller:textMsg方法不存在！
+
+[ 2019-12-02T22:27:13+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=1bce9a508bf8a2fe612c800fcb7eb724dc2447e2&timestamp=1575296833&nonce=1146076778&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=c07eb97dd9ff407861a4767d9feac8cf30c6083a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+ERR: Think\Controller:textMsg方法不存在！
+
+[ 2019-12-02T22:27:26+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=a70bdb06f0f23ecf097431a9dc8428e11acdb49d&timestamp=1575296846&nonce=579643391&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=6d97173025569f876d27fe74d6c1200379f1324d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2019-12-02T22:27:36+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=0b4e749e0d398a05ed167035e5a46bd4048980c8&timestamp=1575296856&nonce=1128085220&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=2fad5156e16699c6fa75548406e7c9664191d8a2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-12-02T22:27:46+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=7a6595c0847e480f474b8b30f5bc1dfdb3ec34d3&timestamp=1575296866&nonce=1898184666&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=18458da081a31b9341e48db2275146ae25948a5a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2019-12-02T22:31:12+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=0ac0a0d2fa91794c0083c2140b2682ea1a52bb68&timestamp=1575297072&nonce=1062647345&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=508f197a441602c82b85c86afd5bc6640fafa98e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: xmlObj /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 48 行.
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2019-12-02T22:32:30+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=0ec0dab5610ed70e88ce4b56069316fb72a2c58f&timestamp=1575297150&nonce=1719962423&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=67b2b0f6d8c216557b0639cd69b73e854446b037
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+ERR: Think\Controller:textMsg方法不存在！
+
+[ 2019-12-02T22:33:17+08:00 ] 223.166.222.101 /Home/WeiXin/yanzheng?signature=462b335bb4b488043ef6dbce291ad08465c88277&timestamp=1575297197&nonce=797948292&openid=o6WqAv6MQDdi4a2c75A8dlu3wQTY&encrypt_type=aes&msg_signature=0660310a5ace1c852dad97fb5c20101a791d109a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: echostr /www/wwwroot/mp.chpch.top/Application/Home/Controller/WeiXinController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+

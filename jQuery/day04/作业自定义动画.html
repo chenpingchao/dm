@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery-1.8.2.min.js"></script>
+    <style>
+        div{
+            position:relative;
+            width:200px;
+            height:200px;
+            border:1px solid #000;
+            border-radius:5px;
+            font-size:20px;
+            margin:5px;
+
+        }
+        #div1{
+            background: #23f5a9;
+        }
+        #div2{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+    <button>开始</button>
+    <button>停止</button>
+</body>
+<script>
+//swing和linear效果
+    // $("#div1").slideUp(5000,'swing');
+    // $("#div2").slideUp(5000,'linear');
+// 同步动画的实现和停止
+$("button:first").click(function(){
+    $("div").animate({left:'1500px'},2000)
+        .animate({width:'100px'},2000)
+        .animate({height:'100px'},2000)
+        .animate({fontSize:'30px'},2000)
+})
+$("button:last").click(function(){
+    $("div").stop(true)
+})
+</script>
+</html>

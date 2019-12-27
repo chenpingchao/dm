@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class='box'>
+
+  <image class='logo' src='/images/logo.png'></image>
+  <view class='XCX_name'>{{sitename}}</view>
+  <view class='XCX_developer'>开发者：{{developer}}</view>
+  <!-- <view class='start' bindtap="local">打开新世界</view> -->
+  <button open-type="getUserInfo" bindgetuserinfo="scope">打开新世界</button>
+</view>

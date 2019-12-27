@@ -1,0 +1,20 @@
+<!--pages/menu/detail/index.wxml-->
+<image class='image' src="{{imgUrl}}{{detail.image_dir}}350_{{detail.image}}"></image>
+
+<view class='menu_nop'>
+  <view class='menu_m'>
+    <text class='menu_name'>{{detail.menu_name}}</text>
+  </view>
+    <text class='or'>￥{{detail.or_price}}</text>
+    <text class='price'>￥{{detail.price}}</text>
+</view>
+
+
+
+<view class='botton'>
+  <view class='cart button_all' bindtap='goCart'>购物车
+    <text class='cart_num'>{{cart_num}}</text>
+  </view>
+  <view class='addCart button_all' bindtap='addcart'>加入购物车</view>
+  <view class='buy button_all'>立即购买</view>
+</view>

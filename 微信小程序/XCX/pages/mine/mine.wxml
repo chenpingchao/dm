@@ -1,0 +1,17 @@
+<!--pages/mine/mine.wxml-->
+<view class='top'>
+  <image class='image' src="{{avatar}}" bindtap='upload'></image>
+  <text class='name'>{{name}}</text>
+</view>
+<view class='cart'>
+  <text>购物车</text>
+  <text>></text>
+</view>
+<view class='cart a'>
+  <text>我的订单</text>
+  <text>></text>
+</view>
+<view class='cart a'>
+  <text>关于我们</text>
+  <text>></text>
+</view>

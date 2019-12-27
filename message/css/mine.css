@@ -1,0 +1,105 @@
+div.top{
+    width: 100%;
+    height: 82px;
+    margin-bottom: 15px;
+    border-bottom: 3px double  #B6B6B6;
+}
+div.top img.bg{
+    margin:14px 100px;
+    height:54px;
+}
+div.top .title{
+    height: 82px;
+    font:bold 32px/82px 微软雅黑;
+    color: #0c64d2;
+}
+
+div.top .member,div.top .msg{
+    margin:0 100px;
+    height: 82px;
+    line-height: 82px;
+}
+
+div.top .member b{
+    color:red;
+    font-size:14px;
+}
+div.top  a{
+    display: inline-block;
+    font-size:18px;
+    margin:0 25px;
+    color:blue;
+    transform:rotate(-5deg);
+    -moz-transform: rotate(-5deg);/* Firefox 旋转属性，参数表示角度(deg表示角度)，负数逆时针，正数顺时针 */
+    -webkit-transform: rotate(-5deg);/* Safari和Chrome */
+    -ms-transform: rotate(-5deg);/* IE 9 */
+    -o-transform: rotate(-5deg);/* Opera */
+}
+div.top a:hover{
+    transform:rotate(-10deg);
+    -moz-transform: rotate(-10deg);/* Firefox 旋转属性，参数表示角度(deg表示角度)，负数逆时针，正数顺时针 */
+    -webkit-transform: rotate(-10deg);/* Safari和Chrome */
+    -ms-transform: rotate(-10deg);/* IE 9 */
+    -o-transform: rotate(-10deg);/* Opera */
+}
+
+div.main{
+    border-radius: 3px;
+    margin:15px auto;
+}
+div.main li{
+    position:relative;
+    float:left;
+    width:186.6px;
+    height:220px;
+    margin:20px 15px 20px 0;
+    background: #0d86c4;
+    border-radius: 5px 28px;
+    box-shadow: darkgrey 5px 5px 10px 2px ;
+    font:16px/1.8em 楷体;
+    color:blue;
+    transform-style:preserve-3d;
+    transition:1s;
+}
+
+div.main ul li:nth-child(6n){
+    float:right;
+    margin-right: 0;
+
+}
+
+div.main  b.num{
+    font:bold 16px/2.2em 微软雅黑;
+    color:#000;
+}
+
+div.main p.time{
+    color:#333;
+    font-size: 14px;
+}
+div.front,div.back{
+    position:absolute;
+    left:0;
+    top:0;
+    padding:20px;
+    backface-visibility:hidden;
+}
+div.main ul li div.back{
+    width: 100%;
+    margin-top:50px;
+    text-align: center;
+    transform:rotateY(180deg);
+}
+
+div.back a{
+    display: block;
+    background: transparent;
+    font:bold 18px/60px 楷体;
+    color:black;
+}
+div.back a:hover{
+    font-size:20px;
+}
+div.main  li:hover{
+    transform:rotateY(180deg);
+}

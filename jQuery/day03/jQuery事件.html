@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <style>
+       div{
+            width:200px;
+            height:200px;
+            border:1px solid black;
+            border-radius: 5px;
+           background: #0f9ae0;
+        }
+    </style>
+</head>
+<body>
+<!--<form>
+    <input type="text" name="user"><b></b>
+    <button>提交</button>
+</form>-->
+<div class="div1">
+    <p>这是一个段落</p>
+</div>
+<button>显示</button>
+<button>切换</button>
+<button>隐藏</button>
+<button>指定透明度</button>
+</body>
+<script>
+    // $("button:first").click(function(){
+    //     $('.div1').append("<p>追加的内容</p>")
+    // });
+    // $("p").click(function () {
+    //     $(this).css("fontSize",'30px')
+    // })
+    /*//单击事件
+    $("div").click(function () {
+        $(this).css("background","#3e6b02")
+    })
+    //双击事件
+    $("div").dblclick(function(){
+        $(this).append("<h1>这是一个div</h1>")
+    })*/
+   /* //鼠标穿过时触发事件，穿过子元素时不会触发
+    $("div").mouseenter(function(){
+        $(this).html("鼠标在div盒子中")
+    });
+    //移出时触发
+    $("div").mouseleave(function(){
+        $(this).html("鼠标不在div盒子中")
+    })*/
+    /*//mousemove事件
+  *  $(window).mousemove(function(event){
+          $("div").offset({top:event.pageY,left:event.pageX})
+     })*/
+/*    //键盘事件
+    //键盘按下时发生
+    $("input").keydown(function(even){
+        $("h2").html(even.which)
+    });
+    //键盘松开时触发
+    $("input").keyup(function(even){
+        $("p").html('已输入')
+    })*/
+/*//表单事件
+    //当元素获得焦点时触发
+    $('input').focus(function(){
+        $("b").html("请输入内容")
+    });
+    //当元素失去焦点时触发
+    $('input').blur(function(){
+        $("b").html("输入完成")
+    });
+    //当元素发生改变时触发
+    $('input').change(function(){
+        alert("元素已被改变")
+    });
+    //当文本被选中时触发
+    $('input').select(function(){
+        alert("文本被选中")
+    });
+    //提交表单时触发
+    $('form').submit(function(){
+        alert("该动作已被终止");
+        return false;
+    });*/
+/*//窗口事件
+     //窗口大小发生变化时触发
+        $(window).resize(function(even){
+            if(even.currentTarget.innerWidth > 600){
+                $("body").css("background",'black')
+            }else{
+                $("body").css("background",'#019344')
+            }
+        })*/
+/*//事件的冒泡
+    $(".div1").click(function(){
+        alert("div1号");
+    });
+    $(".div2").click(function(even){
+        alert("div2号");
+        //消除事件的冒泡
+        even.stopPropagation();
+    });
+    $("button").click(function(){
+        alert("按钮");
+        //消除事件的冒泡
+        return false;
+    })*/
+/*//事件的绑定
+    $(".div1").bind({
+        click:function(){
+            $(this).css("background","#777")
+        },
+        mouseenter:function(){
+            $(this).html("光标在盒子里")
+        },
+        mouseleave:function(){
+            $(this).html("光标消失")
+        }
+    })
+    //绑定解除
+    $("button").click(function(){
+        $(".div1").unbind();
+    })
+*/
+//事件的委派
+    //委派元素为document
+   /* $('p').live("click",function(){
+        console.log("事件")
+    })
+    //解除委派
+    $("button:last").click(function(){
+        $('p').die('click')
+    })*/
+ /*  //指定事件委派的元素
+    $(".div1").delegate("p","click",function(){
+        console.log("事件")
+    });
+    //解除委派
+    $("button:last").undelegate(function(){
+        $('p').die('click')
+    })*/
+/*    //用on 和 off替代绑定和委派
+    //替代绑定
+    $(".div1").on({
+        click:function(){
+            $(this).css("background","#777")
+        },
+        mouseenter:function(){
+           console.log("获取光标")
+        }
+    });
+    //替代委派
+    $(".div1").on("click","p",function(){
+        console.log("事件")
+    });
+    //取代解除委派
+    $(".div1").off("click")*/
+/*//事件的切换
+    $("p").hover(
+        function(){
+            $(this).css("fontSize","30px")
+        },
+        function(){
+            $(this).css("fontSize","10px")
+        }
+    )*/
+/*$("div").click(function (){
+    $(this).toggle(
+    function(){
+        $(this).html("第一次点击")
+    },
+    function(){
+        $(this).html("第两次点击")
+    },
+    function(){
+        $(this).html("第三次点击")
+    },
+    function(){
+        $(this).html("第四次点击")
+    },
+    function(){
+        $(this).html("第五次点击")
+    },
+    function(){
+        $(this).html("第六次点击")
+    })
+})*/
+
+//显示隐藏效果
+//     $("button:first").click(function () {
+//         $(".div1").show(2000)
+//     })
+//     $("button:last").click(function () {
+//         $(".div1").hide(2000)
+//     })
+//     $("button:eq(1)").click(function () {
+//         $(".div1").toggle(2000)
+//     })
+//上拉下卷效果
+//     $("button:first").click(function () {
+//         $(".div1").slideDown(2000)
+//     })
+//     $("button:last").click(function () {
+//         $(".div1").slideUp(2000)
+//     })
+//     $("button:eq(1)").click(function () {
+//         $(".div1").slideToggle(2000)
+//     })
+/*
+//淡入淡出效果
+    $("button:first").click(function () {
+        $(".div1").fadeIn(2000)
+    })
+    $("button:eq(2)").click(function () {
+        $(".div1").fadeOut(2000)
+    })
+    $("button:last").click(function () {
+        $(".div1").fadeTo(2000,0.3)
+    })
+    $("button:eq(1)").click(function () {
+        $(".div1").fadeToggle(2000)
+    })
+*/
+
+
+</script>
+</html>

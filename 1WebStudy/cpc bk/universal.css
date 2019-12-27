@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+
+}
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.box{
+	width:1200px;
+	margin:0 auto;
+}

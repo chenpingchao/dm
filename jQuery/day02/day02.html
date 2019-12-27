@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+/*       #div1 {
+           width: 300px;
+           height: 200px;
+           background: #aaa;
+           position: relative;
+           top: 40px;
+           left: 60px;
+       }
+       #div2 {
+           width: 100px;
+           height: 80px;
+           background: #eee;
+           position: absolute;
+           top: 88px;
+           left: 111px;
+       }*/
+/*        .top{
+            position: fixed;
+            right:10px;
+            bottom:10px;
+            width:4em;
+            height:3em;
+            background:red;
+            color:blue;
+            display: none;
+        }*/
+        .div4{
+            width:80px;
+            height:100px;
+            margin:10px;
+            padding:20px;
+            border:3px solid #0f9ae0;
+        }
+    </style>
+    <script src="../jquery-1.8.2.js"></script>
+</head>
+<body>
+<!--
+   <p>一号节点</p>
+    <p>二号小节点</p>
+    <p>三号大节点</p>
+    <p>四号nb节点</p>
+    <button>单个包裹</button>
+    <button>所有包裹</button>
+    <button>子内容包裹</button>
+    <button>解除包裹</button>-->
+<!--   <input type="checkbox" name="check" value="它有值" >-->
+<!--
+    <dl>
+        <dd>第一行元素</dd>
+        <dd class="red">苹果</dd>
+        <dd>菜虚鲲</dd>
+        <dd class="bold">乔碧萝</dd>
+    </dl>
+    <button>添加类</button>
+    <button>删除类</button>
+    <button>toggel类</button>
+    <button>检查类</button>
+-->
+<!--<div id="div1">
+    这是一个div
+    <div id="div2">
+        内部的div
+    </div>
+</div>-->
+<!--
+<h2>标题</h2>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<h1>标题</h1>
+<button class="top">返回顶部</button>-->
+<div class="div4">
+
+</div>
+
+</body>
+<script>
+/*    //插入节点
+    //向元素内部追加内容
+    $("div").append("<h3>第一次内部末尾追加</h3>");
+    $("<h3>第二次内部末尾追加</h3>").appendTo("div");
+
+    //前置
+    $("div").prepend("<h3>第一次前置内容</h3>");
+    $("<h3>第二次前置内容</h3>").prependTo("div");
+
+    //外部插入
+    //追加
+    $("div").after("<p>外部追加1</p>");
+    $("<p>外部追加2</p>").insertAfter("div");
+
+    //前置
+    $("div").before("<p>外部前置1</p>");
+    $("<p>外部前置2</p>").insertBefore("div");*/
+/*//删除节点
+    //删除元素中的所有节点
+    $("ul").empty();
+    //删除从DOM中匹配的元素
+    $("dd[name='ctrl']").remove();
+    //保留元素的事件和绑定数据
+    var p = $("#tiao").detach();
+    $(p).prependTo("dl");*/
+/*//替换节点
+    $("li").replaceWith("<h3>菜虚鲲</h3>");
+    $("<h2>唱跳rap篮球</h2>").replaceAll("dd");*/
+/*//节点的复制
+    //带属性的复制
+    $("button:first").click(function(){
+        $("dl").append($("#a").clone(true))
+    })*/
+/*//节点的包裹
+    //单个元素单个节点包裹
+    $("button:first").click(function(){
+        $("p").wrap("<h2></h2>");
+    })
+    //所有元素单个节点包裹
+    $("button:eq(1)").click(function(){
+        $("p").wrapAll("<h3></h3>");
+    })
+    //每个元素的子内容进行裹
+    $("button:eq(2)").click(function(){
+        $("p").wrapInner("<h5></h5>");
+    })
+    //解除包裹
+    $("button:last").click(function(){
+        $("p").unwrap();
+    })*/
+/*//属性操作
+    //prop可以进行bool值转换
+    // console.log($('input:first').attr("checked"));
+    // console.log($('input:first').prop("checked"));
+    //attr可以操作自定义属性 prop不能操作自定义属性
+    // $("input:first").attr('abc','自定义属性abc');
+    // $("input:first").prop('def','def是自定义属性');
+    //removeattr删除这个属性  prop删除这个属性的值
+    $("input:first").removeAttr('name');
+    $("input:first").removeProp('value')*/
+//样式操作
+/*//class类操作
+//添加类
+    $("button:first").click(function(){
+        $("dd:first").addClass('border')
+    });
+    //删除类
+    $("button:eq(1)").click(function(){
+        $("dd:eq(1)").removeClass('red')
+    });
+// 如果存在类就删除  如果不存在类就添加
+    $("button:eq(2)").click(function(){
+        $("dd:eq(2)").toggleClass("fontsize")
+    });
+//检查是否存在类
+    $("button:last").click(function(){
+        if( $("dd:last").hasClass("bold") ){
+            alert("存在这个类")
+        }else{
+            alert('不存在这个类')
+        }
+    })*/
+/*    //css样式属性操作
+    //单属性添加
+    $("div").css('backgroundColor','yellow');
+    //多属性添加
+    $('div').css({width:'300px',height:'200px',color:'red'})*/
+/*//内容操作0
+console.log($("div").html());
+
+console.log($("div").text());
+
+console.log($("div input").val());*/
+/*//位置操作
+console.log($("div").offset());
+console.log($("div").offset().left);
+console.log($("div").offset().top);
+// console.log($("div").offset({top:10,left:10}))
+//元素相对于父类的偏移
+console.log($("#div2").position());
+console.log($("#div2").position().left);
+console.log($("#div2").position().top);*/
+//返回顶部
+/*$(document).scroll(function(){
+    var top = $(this).scrollTop();
+    if( top >50 ){
+        $(".top").css("display","block");
+    }else{
+        $(".top").css("display","none");
+    }
+
+});
+    //返回顶部功能
+$(".top").click(function(){
+    $(document).scrollTop(0);
+})*/
+//大小操作
+//不计算边框，内填充，外边距
+// console.log($(".div4").height());
+// console.log($(".div4").width());
+//包括内填充   不计算边框，外边距
+// console.log($(".div4").innerHeight());
+// console.log($(".div4").innerWidth());
+//包括内填充，边框   不计算外边距
+// console.log($(".div4").outerHeight());
+// console.log($(".div4").outerWidth());
+//包括内填充，边框 外边距
+console.log($(".div4").outerHeight(true));
+console.log($(".div4").outerWidth(true));
+</script>
+</html>

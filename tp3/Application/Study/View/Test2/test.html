@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>{$name}</h2>
+<h2>{$detail}</h2>
+<h2>{$stall.1号}</h2>
+<h2>{$stall[二号]}</h2>
+<h2>{$s|default='没有没有'}</h2>
+<literal>{$stall.4号}</literal>
+<h2>{$Think.const.PHP_VERSION}</h2>
+<h2>{$Think.get.id}</h2>
+<h2>{:U('Study/Test/test')}</h2>
+<h2>{:U('Study/Test/test1')}</h2>
+<h2>{:U('Study/Index/index')}</h2>
+<if condition="($name eq '请叫我黑心a商人')">
+    <h2>{$stall.三号}</h2>
+<elseif condition="($detail eq aaa)" />
+    <h2>{$stall.4号}</h2>
+<else/>
+    <h2>{$stall.1号}</h2>
+</if>
+<switch name="num" >
+    <case value="1">输出内容1</case>
+    <case value="2">输出内容2</case>
+    <default />默认情况
+</switch>
+
+<for start="1" end="4" >
+    {$i}
+</for>
+<foreach name="admin" item="v" key="k">
+    <h2>{$k}{$v.username}</h2>
+</foreach>
+<volist name="admin" id="v" key="k"  empty="暂时没有数据">
+    <h2>{$k}-{$v.username}-{$v.password}</h2>
+</volist>
+</body>
+</html>

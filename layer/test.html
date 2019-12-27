@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layer</title>
+     <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/layer/layer.js"></script>
+    <style>
+        body .demo-class .layui-layer-title{background:#00a0e9; color:#fff; border: none;}
+        body .demo-class .layui-layer-btn{border-top:1px solid #E9E7E7}
+        body .demo-class .layui-layer-btn a {background:#000;border:0;}
+    </style>
+
+</head>
+<body>
+<button>警告</button>
+<button>提示</button>
+<button>询问</button>
+<button>tips</button>
+<button>页面1</button>
+<button>页面2</button>
+<button>加载</button>
+<div style="width:100px;height:100px;background:deepskyblue;position:fixed;left:200px;top:100px;" id="div1"></div>
+<div style="display:none" id="div2">
+    <form action="">
+        <dl>
+            <dd>用户名：<input type="text" name="username"></dd>
+            <dd><button>提交表单</button></dd>
+        </dl>
+    </form>
+</div>
+</body>
+<script>
+    //警告框
+    $('button:first').click(function() {
+        //普通版
+        layer.alert("这是一个警告");
+        //图标版
+        layer.alert( "图标版0号" , {icon: 0});
+        layer.alert( "图标版1号" , {icon: 1});
+        layer.alert( "图标版2号", {icon: 2});
+        layer.alert("图标版3号", {icon: 3});
+        layer.alert("图标版4号", {icon: 4});
+        layer.alert("图标版5号", {icon: 5});
+        layer.alert("图标版6号", {icon: 6});
+        layer.alert("图标版7号", {icon: 7});
+        //回调版
+        layer.alert( "回调版本" , {icon:6} , function(){
+            layer.alert("让你回调")
+        } );
+        //皮肤版本
+        layer.alert( "第一个皮肤" , {icon:6 , skin:'layui-layer-lan' } )
+        layer.alert( "皮肤2号" , {icon:6 , skin:"layui-layer-molv" } )
+        //自定义皮肤版
+        layer.alert("自定义皮肤",{ title:'警告' , icon:6 , skin:'demo-class'})
+    });
+    //提示层
+    $('button:eq(1)').click(function(){
+        //普通版
+       layer.msg("这是一个普通版的提示");
+       //图标版
+        layer.msg("带图标的提示",{ icon:6 });
+        //定时版
+        layer.msg("定时提示", {icon:1,time:2000});
+        //遮罩版
+        layer.msg("它有遮罩层" , {icon:6,time:1000,shade:[0.6] } )
+        //回调版
+        layer.msg("可以回调", {icon:6,time:1000,shade:[0.6] } , function(){
+            layer.msg('被回调');
+        } )
+    });
+    //询问弹层
+    $("button:eq(2)").click(function(){
+        //普通版的询问弹层
+        layer.confirm("你确定要这样吗？",{ btn:['确认',"取消"] , title:'问你了' ,icon:3},
+            function(){
+                layer.msg("确认如此")
+            },
+            function(){
+                layer.msg('不要');
+            }
+        )
+        //自定义版的询问弹层
+        layer.confirm("干不干？",{btn:['干','不干'],title:'给个回答',icon:3,skin:'dome-class'},
+            function(){
+                layer.msg('确认',{shade:[0.6]});
+            },
+            function(){
+                layer.msg("取消",{shade:[0.6]})
+            }
+        )
+    });
+    //TIPS弹层
+    $("button:eq(3)").click(function(){
+        //普通的tips
+        layer.tips('这是一个盒子',"#div1");
+        //定位置的弹层
+        layer.tips("我是一个解释",'#div1',{tips:1})  //上
+        layer.tips("我是右边解释",'#div1',{tips:2})  //右
+        layer.tips("我是下边解释",'#div1',{tips:3})  //下
+        layer.tips("我是左边解释",'#div1',{tips:4})  //左
+        //背景
+        layer.tips("有背景",'#div1',{tips:[4,'pink'],time:2000})
+
+    });
+    //页面层
+    $("button:eq(4)").click(function(){
+        //情况一：弹出当前页面的内容
+        layer.open({
+            type:1,
+            title:"登录",
+            area:['300px','400px'],
+            content:$('#div2')
+        })
+
+    })
+    $('button:eq(5)').click(function(){
+        //情况二：弹出其他页面
+        layer.open({
+            type:2,
+            title:'来自另一个页面',
+            area:['200px','300px'],
+            content:["login.html"]
+        })
+    })
+    //加载层
+    $("button:eq(6)").click(function(){
+       layer.load(1,{time:2000});
+       layer.load(2,{time:2000});
+       layer.load(3,{time:2000});
+    });
+</script>
+
+</html>

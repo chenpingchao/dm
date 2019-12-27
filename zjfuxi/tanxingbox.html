@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+		.box{
+			width:1200px;
+			height:500px;
+			border:2px solid #9e2b7f;
+			display:flex;
+			/*flex-wrap:wrap;*/
+			flex-direction: row;
+			/*align-items:flex-end;*/
+			/*justify-content:space-around; */
+
+			
+		}
+		.son{
+			width:300px;
+			height:200px;
+			background: #a38b0a;
+			margin: 10px;
+		
+			/*flex:auto;*/
+		}
+    </style>
+</head>
+<body>
+	<div class='box'>
+		<div class='son' style="order:4;">1号盒子</div>
+		<div class='son' style="flex-shrink: 0;">2号盒子</div>
+		<div class='son' style="flex-grow: 1;">3号盒子</div>
+<div class='son' style="align-self: flex-end;">4号盒子</div>
+<div class='son'>4号盒子</div>
+	</div>
+</body>
+</html>

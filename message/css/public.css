@@ -1,0 +1,42 @@
+/*公共样式*/
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+ul,ol{
+	list-style-type:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+body{
+   font:12px/20px 微软雅黑;
+}
+
+.lf{
+	float:left;
+}	
+
+.rf{
+	float:right;
+}
+
+.clearfix{
+	*zoom:1;
+}
+
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both; 
+}
+
+.box{
+	width:1200px;
+	margin:0 auto;
+}

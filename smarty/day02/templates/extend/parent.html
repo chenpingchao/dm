@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{include file="extend/public/top.html"}
+
+{block name="cx"}
+    <p>{$content}</p>
+{/block}
+<br>
+{block name="zj"}
+<p>要在后边追加内容</p>
+{/block}
+<br>
+{block name="qzj"}
+<p>要在前边追加内容</p>
+{/block}
+<br>
+
+
+{block name="fu"}
+    <p>123{$smarty.block.child}321</p>
+{/block}
+<br>
+
+{block name="zi"}
+123321
+{/block}
+{include file="extend/public/footer.html"}
+
+
+</body>
+</html>

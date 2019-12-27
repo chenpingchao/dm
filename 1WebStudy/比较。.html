@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--  <script src="js/js演示.js"></script> -->
+	<style>
+		#div{
+			width:100px;
+			height:40px;
+			background: #f0f;
+		}
+	</style>
+</head>
+<body>
+	<div id="div"> </div>
+	<!-- <a href="javascript:alert('Hello')">你好</a>	 -->
+</body>
+<script>
+var i = 0;
+a = i++
+console.log(a)
+var x = 0
+b = ++x	
+console.log(b)// 
+	console.log(123123 == '123123')
+	console.log(123123 === '123123')
+
+	var a = 0
+	console.log(a)
+	console.log(a+=100)
+
+	
+	c = a * ++b
+	console.log(c);
+	var c = 30;
+
+	d = 0||1;
+	console.log(d);
+	
+	var d=a+b>=++c;
+	console.log(d);
+	var a = 10;
+	var b = 20;
+	a+20>b ? c=0 : c=1;
+	console.log(c);
+	
+
+	document.getElementById("div").onclick = function(){
+		window.alert("弹窗警告")
+	}
+	document.write( "疯狂打call");
+	document.getElementById("div").innerHTML ="段落已修改"
+	console.log("看不见看不见")
+	var a;
+	a=10;
+	var b = 10;
+	c=10;
+	var d=10,e=110;
+	console.log(String(12331));
+	console.log(String(1+'2lkf'));
+	console.log(String(NaN));
+	console.log(String(null));
+	console.log(String(true));
+	console.log(String(false));
+	date=new Date();
+	console.log(date.toString());
+
+	console.log(Number('1238789'));
+	console.log(Number('1adadw89'));
+	console.log(Number(null));
+	console.log(Number(true));
+	console.log(Number(false));
+	console.log(Number(undefined));
+	console.log(Number(div));
+
+	console.log(Boolean(0));
+	console.log(Boolean(0.0));
+	console.log(Boolean(undefined));
+	console.log(Boolean(null));
+	console.log(Boolean(NaN));
+
+	console.log(Boolean(213));
+	console.log(Boolean('qweds'));
+	console.log(Boolean(false));
+
+</script>
+</html>
